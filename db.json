@@ -1,0 +1,729 @@
+{
+    "questionaire":[
+        {
+          "id": 1,
+          "ques": "What is Caching? How can you save money with Caching?",
+          "ans": "Caching is the process of storing copies of files in a cache, or temporary storage location, so that they can be accessed more quickly. Technically, a cache is any temporary storage location for copies of files or data. A single cache instance can provide hundreds of thousands of IOPS (Input/output operations per second), potentially replacing a number of database instances, thus driving the total cost down."
+        },
+        {
+          "id": 2,
+          "ques": "What is load balancing?",
+          "ans": "Load balancing is the process of distributing network traffic across multiple servers. This ensures no single server bears too much demand. By spreading the work evenly, load balancing improves application responsiveness. It also increases availability of applications and websites for users."
+        },
+        {
+          "id": 3,
+          "ques": "What is CAP Theorem in DBMS?",
+          "ans": "The CAP theorem (also called Brewer's theorem) states that a distributed database system can only guarantee two out of these three characteristics: Consistency, Availability, and Partition Tolerance. \n i> Consistency: A system is said to be consistent if all nodes see the same data at the same time. \n ii> Availability: Availability in a distributed system ensures that the system remains operational 100% of the time. Every request gets a (non-error) response regardless of the individual state of a node. \n iii> Partition Tolerance: This condition states that the system does not fail, regardless of if messages are dropped or delayed between nodes in a system."
+        },
+        {
+          "id": 4,
+          "ques": "What is PACELC Theorem?",
+          "ans": "The PACELC theorem is an extension to the CAP theorem. the PACELC theorem states that in case of network partitioning in a distributed computer system, one has to choose between availability and consistency. PACELC extends the CAP theorem by introducing latency and consistency as additional attributes of distributed systems."
+        },
+        {
+          "id": 5,
+          "ques": "What are message queues?",
+          "ans": "Message queues allow different parts of a system to communicate and process operations asynchronously. A message queue provides a lightweight buffer which temporarily stores messages, and endpoints that allow software components to connect to the queue in order to send and receive messages."
+        },
+        {
+          "id": 6,
+          "ques": "What are the different types of databases?",
+          "ans": "There are following types of databases: \n i>   Centralised database. \n ii>  Distributed database. \n iii> Personal database. \n iv>  End-user database. \n v>   Commercial database. \n vi>  NoSQL database. \n vii> Operational database. \n viii>Relational database. \n ix>  Cloud database. \n x>   Object-oriented database. \n xi>  Graph database."
+        },
+        {
+          "id": 7,
+          "ques": "What are webhooks?",
+          "ans": "Webhooks are one of a few ways web applications can communicate with each other. It allows you to send real-time data from one application to another whenever a given event occurs."
+        },
+        {
+          "id": 8,
+          "ques": "What is Docker? Why do we use it?",
+          "ans": "Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. Docker is used for fast consistent delivery of your applications, responsive deployment and scaling and running more workloads on the same hardware."
+        },
+        {
+          "id": 9,
+          "ques": "What is Cloudfront in AWS?",
+          "ans": "CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as . html, . css, . js, and image files, to your users. CloudFront delivers your content through a worldwide network of data centers called edge locations."
+        },
+        {
+          "id": 10,
+          "ques": "Which service by Amazon Web Services (AWS) can you use for Queues?",
+          "ans": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications."
+        },
+        {
+          "id": 11,
+          "ques": "What is pub sub?",
+          "ans": "A pub sub implementation is a means of exchanging messages that consists of three components: publishers, subscribers, and a message broker "
+        },
+        {
+          "id": 12,
+          "ques": "What is S3 Service in AWS?",
+          "ans": "Simple Storage Service (S3) provides object storage, which is built for storing and recovering any amount of information or data from anywhere over the internet."
+        },
+        {
+          "id": 13,
+          "ques": "What is EC2 Instance in AWS?",
+          "ans": "EC2 instance is a virtual server in Amazon's Elastic Compute Cloud (EC2) for running applications on the Amazon Web Services (AWS) infrastructure"
+        },
+        {
+          "id": 14,
+          "ques": "What is Route 53 In AWS?",
+          "ans": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0."
+        },
+        {
+          "id": 15,
+          "ques": "What is TLS?",
+          "ans": "Transport Layer Security (TLS) encrypts data sent over the Internet to ensure that eavesdroppers and hackers are unable to see what you transmit which is particularly useful for private and sensitive information such as passwords, credit card numbers, and personal correspondence."
+        },
+        {
+          "id": 16,
+          "ques": "What is the difference HTTPS vs HTTP?",
+          "ans": "i> http is unsecured and https is secured. \n ii> http port is 80 whereas https port is 443."
+        },
+        {
+          "id": 17,
+          "ques": "What is a reverse proxy?",
+          "ans": "A reverse proxy accepts a request from a client, forwards it to a server that can fulfill it, and returns the server’s response to the client."
+        },
+        {
+          "id": 18,
+          "ques": "How to add comments on css?",
+          "ans": "For multi-line comments we use \"/*\" in starting of the line and \"*/\" at the end of the line. Whereas for single line comment we use \"//\" in the starting of the line."
+        },
+        {
+          "id": 19,
+          "ques": "Why do we use pseudo-class",
+          "ans": "A pseudo class in CSS is used to define a specific state of the selected element. For example \"mouseOver\", \"mouseEnter\", \"hover\""
+        },
+        {
+          "id": 20,
+          "ques": "How is specificity applied?",
+          "ans": "Specificity is used when we apply CSS to an element so browser will decide which CSS property should be applied which are relevant to an element. Specificity only applies when same element is targeted by multiple elements. Specificity is based on  the matching rules which are composed of different sorts of CSS Selectors."
+        },
+        {
+          "id": 21,
+          "ques": "What method allows an element to be moved from its current position?",
+          "ans": "The translate() method allows an element to move from its current position to new position. In translate we we have to declare x-axis and y-axiz where we want to move an element."
+        },
+        {
+          "id": 22,
+          "ques": "what properties does flex model have?",
+          "ans": "Flex have 3 following properties: \n i> flex-grow: flex-grow property specifies how much of the remaining space in the flex container should be applied to an element. \n ii> flex-shrink: this property specifies how much a flex item should shrink according to the flex container. \n iii> flex-basis: this property will set the initial main size of the flex container basis on the box size. "
+        },
+        {
+          "id": 23,
+          "ques": "What is the difference between flex and grids?",
+          "ans": "The main difference between both flex and grid is that flex is mainly designed for one-dimension layout, whereas grid is designed for two-dimensional layout. So we can say flex is for rows only and grid is for both rows as well as columns."
+        },
+        {
+          "id": 24,
+          "ques": "Give an example where we have to use grids and where you have to use flexbox?",
+          "ans": "When we have a small design to implement and align the elements flexbox is perfect for that, just create a container and in CSS use \"display:flex;\" it will align the elements in the container, everything will fit-in the container aligning equally. whereas if we want to implement a complex design then the grid is perfect for that. it will apply equal gaps among all elements in grid container and align every complex item in a systematic manner. Grid will create two-dimensional layout. One more difference is that flexbox is content based and grid is container based, which meants the the size of flex item is defined in the flex item itself and in grid layout the size of grid container is defined inside the grid container."
+        },
+        {
+          "id": 25,
+          "ques": "Give an example where you cannot use flexbox, and you can only use grids?",
+          "ans": "we can apply gap as per our choice in grid whereas we can't apply gap as per our choice in flexbox. Also flexbox is hard to implement in complex structures as compared to grid. "
+        },
+        {
+          "id": 26,
+          "ques": "What are combinators? give examples of how you can use them.",
+          "ans": "Combinators is used to clarify the relationship between 2 selectors.Combinators are of four types: \n i> General sibling selector(~): It selects the elements that follow the elements of first selector and both of them are children of same parent. It is used to select the siblings of and element. for example \"div ~ p {};\" , it will select all the siblings <p> elements of <div> element. \n Adjacent Sibling Selector(+): it is used to select the adjacent element ehich is next to the specified tag. It only selects the element which is just next to the specified first element. For ex: \"p + p {}\", it will select paragraph immediately after another paragraph. \n iii> Child Selector(>): it selects the child elements in the document tree. The parent element is always placed in the left of the \">\" symbol. For ex: \"div > p {}\", this will select all the paragraph elements that are children of <div> element. \n iv> Descendant Selector(space): It is used to select all the particular element present in the nested DOM tree. It can be a direct child and it can be deeper to it. for ex: \"div p {}\", it will select all the paragraph element in the div element."
+        },
+        {
+          "id": 27,
+          "ques": "Q10: What does object-fit do?",
+          "ans": "The object-fit property defines how an element responds to the height and width of its container. It's mainly used for image and video. It is used to resize the image or video to fit in the container."
+        },
+        {
+          "id": 28,
+          "ques": "What does rotate do?",
+          "ans": "Rotate takes every point in a figure and rotates the item to a particular degree which is given. To rotate an item we need to use rotate() and in this we need to define the number of degrees we want to rotate it. "
+        },
+        {
+          "id": 29,
+          "ques": "What rule can be used to define animations? ",
+          "ans": "Animation is use to apply some animation to an element/item. Few rules that need to keep in mind while using animation: \n i> duration: The length of time that an anmation takes place to complete. \n ii> timing function: it is used to apply an animation progress through duration of each cycle. \n iii> delay: the amount of time to wait from applying animation to an element  \n iv> iteration count: sets the number of times an animation sequence shold be played for before stopping. \n v> direction: it sets whether the element should go forward or backward or both sides . \n vi> fill-mode: it sets how a CSS is applied before and after the animation completion. \n vii> play-state: it sets whether an animation is running or paused. \n viii> name: it describes the animation name that is applied to the element."
+        },
+        {
+          "id": 30,
+          "ques": "When working with attribute selectors, how can you select elements which contain a particular attribute value?",
+          "ans": "Attribute selector is used to select an element with some specific attribute or atribute value. there are many ways to select elements which contain a particular attribute value: (attribute is represented by attribute name of \"attr\" ) \n i> [attr=value]: it is used to select the elements with an attribute name exactly as \"value\". for ex \"[attr=value]\" \n ii> [attr~=value]: it is used to select the elements which are separated by white-space, and one of which is exaclty match the \"value\". for ex \"[attr~=one value]\". \n iii> [attr|=value]: it is used to select the elements immediately followed by hyphen(-) and one among them matches the \"value\". for ex \"[attr|=value-one]\".  \n iv> [attr^=value]: it is used to select the elements whose attribute value begins with specified value. for ex \"[attr^=valueOne]\". \n v> [attr$=value]: it is used to select the elements whose attribute value ends with specified value. for ex \"[attr$=onevalue]\". \n vi> [attr*=value]: it is used to select the specific element present anywhere. for ex: \"[attr~=one value]\" or \"[attr|=value-one]\" both are correct."
+        },
+        {
+          "id": 31,
+          "ques": "What does @media do?",
+          "ans": "The media query is used to apply different styles for different size screens or we can say different media devices. media queries checks width and height of the viewport and applies styles according to that."
+        },
+        {
+          "id": 32,
+          "ques": "What can be used to override properties of an element?",
+          "ans": "To override the property of an element we can use !important, !important increases the priority of an element and overrides the properties for that element."
+        },
+        {
+          "id": 33,
+          "ques": "How can you select every alternate elements in a list of elements using css?",
+          "ans": "To select every alternate element in a list of elements we can use \"tr:nth:child(odd)\" or we can use \"tr:nth:child(odd)\" it will select odd or even child element of the list respectively."
+        },
+        {
+          "id": 34,
+          "ques": "What is the ranking of selectors with respect to specificity?",
+          "ans": "!important > inline style > #id > .class > element"
+        },
+        {
+          "id": 35,
+          "ques": "how can we apply same styles to multiple selectors?",
+          "ans": "To apply same styles to multiple selectors we can use \", \" in between two selectors and declare same style to it. for ex: \".class1 {color: red}; .class2 {color: red};\" can be written as \".class1, .class2 {color:red};\""
+        },
+        {
+          "id": 36,
+          "ques": "What are the differences between relative and absolute in CSS?",
+          "ans": "Relative position elements is used to position an element from it's normal space using top, left, right, bottom whereas absolute position is used to position an element relative to it's parent/ancestor container. If ancestor is not present than it will adjust according to document body. Ancestor container will act like it does not exist. "
+        },
+        {
+          "id": 37,
+          "ques": "Explain briefly what happens when you hit a url? explain DNS lookup.",
+          "ans": "The URL contains domain name, so when we hit on url the browser checks it's cache and finds out the IP address related to the domain name. DNS (Domain Name System) is a database where records of IP addresses is stored along with their domain names. So in simple words, every single url contains uniques IP address, when we hit on url it goes to the Local DNS Server, if the domain name is in not in the local sever it goes to the root DNS server with it's query. Root DNS server checks .com domain name and then checks for the domain name in it's server. When root DNS server founds the query it will returns the answer to the client."
+        },
+        {
+          "id": 38,
+          "ques": "What is a URLs full form? Explain what a url is and the four parts it consists of The protocol in use, The hostname of the server, The location of the file & The arguments to the file.",
+          "ans": " URL (Uniform Source Locator) is a unique identifier used to locate a resource on the internet. A url contains domain name which is checked by browser in it's cache and DNS server later returns the answer. There are 4 components of url : Protocol, path query & Domain. \n i> The protocol of the url indicates the method that will be used for transimitting and exchanging the data. The most used protocol is http & https. \n ii> The domain is the hostname of a url. Every domain is connected to an IP address of a website.\n iii> The path specifies the file or any other resource location. \n iv> The query parameter is used for internal searches. It mainly preceded by the help of question mark. For example searching an id \" ...?_id='343234' \""
+        },
+        {
+          "id": 39,
+          "ques": "What is HTTP protocol?",
+          "ans": "The hypertext Transfer Protocol is an application protocol for distributive, collaborative and hypermedia information that allows users to communicate with World Wide Web. HTTP gives users a way to interact with web resources such as HTML file by transmitting hypertext messages between clients and servers."
+        },
+        {
+          "id": 40,
+          "ques": "What is TCP Protocol?",
+          "ans": "Transmission Control Protocol is used to ensure reliable transmission of of data packets. TCP solves many problems related to send/receiving packets like corrupted packets, loss of packets, out of order packets. When sending packet using TCP the data portion of each packet is formatted as TCP segment. Each TCP segment contains header and a data. the TCP header contains more than just UDP header, it contains source port number, destination port number, and checksum. The steps for the processing of transmitting data through TCP are: \n i> Establishing Data: When two computer wants to transmit data they first do three way handshake. In the three way handshake there not contain much of any data instead they just send SYN and ACK which are part of header.\n ii> Send Packets of data: The computer send data packets to other computer and second computer replies with proper answer to the query. They both communicate with 0s and 1s and keep the tracks of data packets. \n iii> Close the connection: When computer becomes idle and there is no more transmission of data packets the computer closes the connection by sending FIN and Receiving FIN and ACK."
+        },
+        {
+          "id": 41,
+          "ques": "Explain all the different HTTP methods?",
+          "ans": "There are 8 different HTTP methods: \n > GET: The GET method is retrieves the data from the server. In requests using GET, their is no effect on  the data.\n i> HEAD: It is same as GET but it only tranfers the status line and header section only.\n ii> POST: This is used to post data to in the data like files, customer information, etc. \n v> PUT: It is used to replace all the current data of the target resource with uploaded content.\n > DELETE: Removes all the data related to the target given in the url. \n i> CONNECT: it establishes a tunnel to the server identified by the given url.\n ii> OPTIONS: it tells about communication options we have for the targeted resource.\n iii> TRACE: This test allows to trace the path to the targeted resource, to identify points of failure.\n X> PATCH: It is used to partially modify a targeted resource. "
+        },
+        {
+          "id": 42,
+          "ques": "What are HTTP headers?",
+          "ans": "HTTP headers are used to pass additional information between the clients and the server through the request and response header. All the header fields are separated by semi-colon like a key value pair. There are few header which can contain comments too."
+        },
+        {
+          "id": 43,
+          "ques": "What are some HTTP response codes? what does it mean? 2xx, 3xx, 4xx, 5xx.",
+          "ans": "HTTP response codes are three digit response from the server to the browser side request. These status codes serve as a mean of communication between server and the internet browser and there are multiple assigned codes for HTTP response. Some of them are: 101, 401, 404, 200, 201, 202, 400 etc.  \n i> 2xx-Successfull: the request is successfull and the browser has recieved the expected information. \n ii> 3xx-Redirection: the page or you have been redirected and completion of the request requires further action. \n iii> 4xx-Client Error: the website or page could not be reached, either the page is unavailable for the request or the request contains bad syntax. \n iv> 5xx-Server Error: While the request appears to be valid, the server could complete the request."
+        },
+        {
+          "id": 44,
+          "ques": "What does cache control on http response mean?",
+          "ans": "Cache control http header is a header which specifies caching policies of server response as well as client request. It gives information about the manner in which the particular resource is cached, location of the cached resource, and time to live. "
+        },
+        {
+          "id": 45,
+          "ques": "What is polling?",
+          "ans": "Polling is a technique where we check for fresh data over a given interval by periodically making API requests to a server. A real-time example for this is when we use map for cabs, the map should update every 1 sec for driver's location so we can make and API request over every 1 sec to update the information."
+        },
+        {
+          "id": 46,
+          "ques": "What is long polling?",
+          "ans": "Long polling is just like polling except here we have to make API requests until a condition is met. we can use this in authorization where we are using third party organization for authorization, we can make API requests until the request is accepted and the third party organization will reply. "
+        },
+        {
+          "id": 47,
+          "ques": "What are web sockets?",
+          "ans": "Web Sockets are defined as a two-way communication between the server and the client, which means both server and client can exchange data t the same time. It's a full duplex communication protocol that operates over http through single TCP/IP socket connection. the connection between server and client will be alive until either client or server will close the connection from their side. "
+        },
+        {
+          "id": 48,
+          "ques": "How is web sockets different from HTTP?",
+          "ans": "WebSocket is a bidirectional protocol whereas HTTP is an unidirectional protocol. We can reuse the same established channel with websocket whereas in HTTP once http request has been made and getting the response the connection gets closed. Most of the services like monitoring, trading, notification services use websocket to recieve data on single communication channel whereas HTTP is only used by some RESTfull application. WebSocket is faster as compared to HTTP."
+        },
+        {
+          "id": 49,
+          "ques": "What is HTTPS?",
+          "ans": "HTTPS is a secure version of HTTP to send/recieve data between server and browser. HTTPS uses the SSL/TLS protocol for encryption and authentication. HTTPS uses port 443 instead of HTTP port 80. The HTTPS protocol makes it possible for website to securely transmit sensitive data like bank details and login credentials over the internet."
+        },
+        {
+          "id": 50,
+          "ques": "What is Cross Origin Resource Sharing? ( CORS ) Why do we need it?",
+          "ans": "Cross Origin Resource Sharing allows us to make request from one website to another website in the browser which is mainly prohibited by another browser policy SOR. CORS defines a way in which a browser and server can interact to determine whether it is safe to allow the cross-origin request."
+        },
+        {
+          "id": 51,
+          "ques": "What does Access-Control-Allow-Origin header do?",
+          "ans": "The Access-Control-Allow-Origin response header indicates wheather the response can be share with requesting code from the given origin. "
+        },
+        {
+          "id": 52,
+          "ques": "What is clickjacking? How do you fix it?",
+          "ans": "Clickjacking is an attack that tricks a user into clicking a webpage element which disguised as another element. This can cause user getting malware attack, loosing sensitive data, visiting malicious websites. Clickjacking can be disallow by setting HTTP headers that direct browser to not allow the target website to be iframed. This can be done by configuring server on the following two response headers: X-frame-Options and Content-Security-Policy. It can also be done using javascript code that kills the iframe, javascript can burst the frame."
+        },
+        {
+          "id": 53,
+          "ques": "What are some performance metrics for your website?",
+          "ans": "Some performance metrics for my websites are: \n i> User satisfaction: It's measurement of users level of satisfaction based on the response time of request when interacting with the website.\n ii> Time to Interacive: It measures the time until the application is rendered and user can respond to it.\n iii> Page speed and Load time: It measures the total time it takes to download and display the entire content of a web page.\n iv> Error rate: It's a performance metric that tracks the percentage of request issues you have in relation to the total number of requests. \n v> Hard utilization: We must keep track of hardwares, how the site performs when ran on different devices."
+        },
+        {
+          "id": 54,
+          "ques": "What does the following term mean? \n    Time to first byte \n    Page load time",
+          "ans": "i> Time to first byte: It's how long it takes for the first bit to reach a user's web browser. \n ii> Page load time: It's how much time your page takes to load on user's browser. The lesser it will be the more good impact will be on user."
+        },
+        {
+          "id": 55,
+          "ques": "What do CDN or Content Delivery Networks do? When do you need a CDN?",
+          "ans": "A CDN is a globally distributed network of web servers whose purpose is to provide fast content delivery. The content is stored through CDN so that when user asks the content the content replicates as fast as it can from the closest geographical location. Whenever a website or a mobile application is used by more than one user at a time we need CDN. For example: e-commerce sites, their are mutltiple user's at a time using e-commerce sites. So CDN provides faster load time, better site performance, quickly scalable even if it's heavy traffic."
+        },
+        {
+          "id": 56,
+          "ques": "What is the difference between Client Side Renderring and Server Side Renderring?",
+          "ans": "When an HTML file receives from server and renders it, this is called server side rendering. In server side rendering the user makes a request and then server prepares the HTML page by fetching the required data from the database and sends to the user's machine over the internet. However when building large applications it's not sufficient for DOM manipulation it does not define a clear structure and organize for your app. So client side rendering comes there, it's mostly about JS libraries and frameworks. It means all the rendering oart is done in your browser rather than the website's server, so now it will fetch all the required files only and renders it in your browser. The first page will be slow but after that every other page will render fast. "
+        },
+        {
+          "id": 57,
+          "ques": "What is Progressive Renderring?",
+          "ans": "Progressive rendering is a rendering of the the small portion or the page. Instead of rendering the whole page it will render only a small selected portion of the page. It is fast because there is no need of rerendering whole page just for small part. "
+        },
+        {
+          "id": 58,
+          "ques": "What is the difference between Preloading and Prefetching resources?",
+          "ans": "Preloading tells the browser to download and cache a resource in advance when you need that resource in few seconds, it downloads the file as soon as possible as the priority. Whereas prefetching is asking the browser to download it and cachethe resource but this time it's not downloading as the priority, so it doesn't interfere with other more important resources. After downloading both Preloading and prefetching doesn't effect the current resource but they will show immediately up when they are required. "
+        },
+        {
+          "id": 59,
+          "ques": "What are service workers?",
+          "ans": "Service workers work as a proxy server which acts between web applications, browser and the network. they are responsile to act for creating offline experiences, taking appropriate actions when network is available and update assets on the server. It works like a worker against origin and a path. It is in the form of js file that can control the webpage it is associated with. It intercepts and modify navigation and requests created by the user, it takes total control over how the webpage should behave on certain actions."
+        },
+        {
+          "id": 60,
+          "ques": "What is hoisting?",
+          "ans": "Hoisting is the process of moving the declaration of functions, variables and classes on the top prior to execution of the code. Hoisting make sures that these declarations were safely used in code."
+        },
+        {
+          "id": 61,
+          "ques": "What is scoping?",
+          "ans": "Scoping determines the accessibility of the variables. Scoping is of 4 type:  \n i> Global Scope: variables which can be accessed anywhere in the code, which means they are global. \n ii> Local Scope: variables which can be accessed only within a function, they are local for that function only. \n iii> Function scope: variables which are accessible only in function, not outside of the function. \n iv> Block Scope: variables declares inside \"{ }\" cannot be accessible outside this. Only const and let have the property of block scope."
+        },
+        {
+          "id": 62,
+          "ques": "How are var, let const different?",
+          "ans": "var:  \n i> var can be redeclare. \n ii> we can re-assign the value. \n iii> It's a functional scope. \n iv> can be access before initialization but the value will be undefined for that. \n let: \n i> we can't redeclare let. We can only redeclare in another block. \n ii> let can be declare in block scope. \n iii> we can re-assign the value. \n iv> cannot be accessed without initialization \n const: \n i> we can not redeclare const. \n ii> we can not re-assign the value. \n iii> const can be declare in block scope. \n iv> cannot be accessed without initialization"
+        },
+        {
+          "id": 63,
+          "ques": "What are the two main differences in arrow functions? ",
+          "ans": "i> Regular functions are constructible and callable which means we can call the function using new keyword whereas arrow functions are only callable not constructible, it will throw error on calling with new keyword. \n ii> Arrow function does not have it's own this keyword like regular function. Value of this inside arrow function is always equal to this value outside function. \n iii> Regular function have arguments obejct which contains list of arguments whereas arrow function don't have this property."
+        },
+        {
+          "id": 64,
+          "ques": "Does Call apply bind work for arrow functions",
+          "ans": "No, call apply bind don't work for arrow functions because arrow function don't have his own this keyword, but we can pass it as parameters in the function."
+        },
+        {
+          "id": 65,
+          "ques": "What does call apply bind do?",
+          "ans": "The call method calls a function with a given this value. The bind method is also same as call method, the only difference is that in call method we can add multiple parameters whereas in bind only one parameter can be passed and bind method copies the called function whereas call method doesnot copy the function. Call and apply method are also same but the only difference is that in call the parameters are passed individually and in apply method these parameters are passed in array."
+        },
+        {
+          "id": 66,
+          "ques": "What are closures?",
+          "ans": "Closure gives access to an outer function's scope from an inner function scope. Every time we declare a function closures are created automatically in js."
+        },
+        {
+          "id": 67,
+          "ques": "What is event bubbling?",
+          "ans": "Event bubbling is when an element which is having an event is inside an element which also have same event handling then on clicking on the inner element outer element will also trigger. First the inner element will be captured and then the outer."
+        },
+        {
+          "id": 68,
+          "ques": "What is event loop?",
+          "ans": "As we all know javascript is a single-threaded asynchronous programming language. So in javascript event loop is responsible for executing the code. The basic structure of running js is: function calls form a stack of frames, the functions taking time will moved to web api's where they will take there time, after completion event loop will move the function/message from queue to stack after stack will be empty and no more functions/messages/objects to run in stack. This process of calling function to stack from queue to stack if queue is not emplty is event loop."
+        },
+        {
+          "id": 69,
+          "ques": "Explain promises to a 5 year old, with simple examples.",
+          "ans": "Promise is when you promise something to do, so the result will be either the work will complete or the work will not complete, but with that the other tasks will be also done. For example: a father sent his child to railway station bring her mother because he had some work so he will either bring it or the train can be canceled so she was unable to come and he can't bring her to home. Behind his son he completed his work. So both tasks ran separately and completed. "
+        },
+        {
+          "id": 70,
+          "ques": "what does async await mean?",
+          "ans": "async-await keywords enable asynchronous function and it's promise based behaviour. Async function will either execute until the promise is either fullfilled or rejected. It's a way to write your code in a more cleaner style."
+        },
+        {
+          "id": 71,
+          "ques": "What does the this keyword mean?",
+          "ans": "In javascript there are many ways we can use this keyword: \n i> In global context this refers to the global object. \n ii> In function context this refers to the global object. If the function is in strict mode this keywork is undefined. \n iii> In arrow functions we can't use this keyword, it will be ignored. \n iv> In an event this refers to the element that recieved the event. \n v> this keyword with methods like call(), bind() and apply() will refer as an object."
+        },
+        {
+          "id": 72,
+          "ques": "What are classes? what are getters and setters?",
+          "ans": "Classes are template to create objects. A class encapsulates data and functions that manipulate data. Also js classes are syntactic sugar over the prototype inheritance. \n Sometimes we want to return a dynamically computed value or the status of an internal variable without using explicit method calls, to return these javascript introduced getter. And setter can be used to bind an object property to a function. Setter basicly set the value in the function."
+        },
+        {
+          "id": 73,
+          "ques": "How do you declare private and static variables in classes?",
+          "ans": "To declare a private variable in a class we use prefix as \"#\" in name of the variable. And to declare static variable we need to use static keyword."
+        },
+        {
+          "id": 74,
+          "ques": "What is currying?",
+          "ans": "Currying is the process of breaking down a function into multiple arguments in such a way that each function will take one argument and the final function called will return the result. "
+        },
+        {
+          "id": 75,
+          "ques": "What is SQL Databases? What are some companies who uses Mongo, what type of applications are these?",
+          "ans": "Stuctured Query Language (SQL) for storing, manipulating and retriving data in database. It follows table like structure for the database."
+        },
+        {
+          "id": 76,
+          "ques": "What is NoSQL Databases? What are some companies who uses Mongo, what type of applications are these?",
+          "ans": "It's similr to SQL Database, the difference is that it's not only in tanular form but it can be document-base, graph database, wide column or key value pairs. Some companies which uses Mongo are:  \n i> MetLife: This application provides a combined view of transactions, policy details, and other details of MetLife Customers. It looks like Wall of Facebook, which takes data from 70 legacy systems and merges it into a single record. \n ii> Aadhar: Aadhar Project is using MongoDB as its database to store a massive amount of demographic and biometric data of more than 1.2 billion Indians. \n iii> EA: Ea is an online multiplayer game that is using MongoDB Database for its game called FIFA Online 3."
+        },
+        {
+          "id": 77,
+          "ques": "What is the difference between SQL and NoSQL databases?",
+          "ans": "SQL:  \n i> Relational Databases \n ii> Table-based structure. \n iii> Designed for scaling up vertically by upgrading one expensive custom built hardware. \n iv> Great for highly structured data and dob't anticipate changes to the databse structure. \n v> working with complex queries and reports. \n \n NoSQL:  \n i> Non-relational/ Distributed databases. \n ii> key value pair, document based, graph database or wide-column stores structure. \n iii> Designed for scaling out horizontally by using shards to distribute load across multiple commodity hardware. \n iv> pairs with fast paced development teams. \n v> data consistency and integrity is not top priority.  \n vi> expecting high transaction load."
+        },
+        {
+          "id": 78,
+          "ques": "What are some features of MongoDB?",
+          "ans": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. Some basic features of MongoDB are: \n i> Document Oriented: MongoDB stores all the data in the form of documents instead of tables. In these documents, the data is stored in key-value pairs instead of rows and columns which make the data much more flexible. \n ii> Schema-less database: means one collection can hold different types of documents in it. In the MongoDB database, a single collection can hold multiple documents and these documents may consist of the different numbers of fields, content, and size.  \n iii> Scalability: MongoDB provides horizontal scalability with the help of a mechanism known as sharding. \n iv> High Performance: Due to its features like scalability, indexing, replication, etc., the performance of MongoDB becomes very high as also data persistence, as compared to any other databases."
+        },
+        {
+          "id": 79,
+          "ques": "What are aggregate queries?",
+          "ans": "An aggregate query is a method of deriving group and subgroup data by analysis of a set of individual data entries. The aggregate function is used to perform calculations on multiple values and return the result in a single value like the average of all values, the sum of all values, and maximum & minimum value among certain groups of values."
+        },
+        {
+          "id": 80,
+          "ques": "How can you paginate on MongoDB?",
+          "ans": "We can do pagination by applying skip and limit condition according to the requirement of the page limit."
+        },
+        {
+          "id": 81,
+          "ques": "What are pipelines in aggregation?",
+          "ans": "Aggregation is a way of processing a large number of documents in a collection by means of passing them through different stages. The stages make up what is known as a pipeline. The stages in a pipeline can filter, sort, group, reshape and modify documents that pass through the pipeline."
+        },
+        {
+          "id": 82,
+          "ques": "How can you sort in MongoDB?",
+          "ans": "Sorting in ascending order: db.collectionName.find().sort({key:1}); \n Sorting in descending order: db.collectionName.find().sort({key:-1});"
+        },
+        {
+          "id": 83,
+          "ques": "What is indexing in MongoDB? Why do we need to use indexing? What are pros and cons for indexing?",
+          "ans": "Indexing is used to stores some information related to the documents such that it becomes easy for MongoDB to find the right data file. Pros: it speeds up your find, update and delete queries. Cons: it slows down write queries."
+        },
+        {
+          "id": 84,
+          "ques": "Write the query for indexing a field in MongoDB?",
+          "ans": "db.collectionName.createIndex({keys: 1/-1});"
+        },
+        {
+          "id": 85,
+          "ques": "What is the improvement in performance in MongoDB?",
+          "ans": "we can improve performance in MongoDB by storing the results of frequent sub-queries on documents to reduce read load and making sure that you have indices on any fields you regularly query against"
+        },
+        {
+          "id": 86,
+          "ques": "What is the data structure used for indexing?",
+          "ans": "B-trees are the most commonly used data structures for indexes as they are time-efficient for lookups, deletions, and insertions."
+        },
+        {
+          "id": 87,
+          "ques": "Are values sorted in indexes?",
+          "ans": "No,it's default values. But we can sort them using sort()."
+        },
+        {
+          "id": 88,
+          "ques": "What are Replica Sets in MongoDB?",
+          "ans": "A replica set in MongoDB is a group of mongod processes that maintain the same data set. Replica sets provide redundancy and high availability, and are the basis for all production deployments."
+        },
+        {
+          "id": 89,
+          "ques": "Explain the structure of ObjectID in MongoDB.",
+          "ans": "An ObjectId in MongoDB is a 12-byte BSON type, in the 12-byte structure, the first 4 bytes of the ObjectId represent the time in seconds since the UNIX epoch. the next 3 bytes of the ObjectId represent the machine identifier, the next 2 bytes of the ObjectId represent the process ID and the last 3 bytes of the ObjectId represent a random counter value."
+        },
+        {
+          "id": 90,
+          "ques": "By default, which index is created by MongoDB for every collection?",
+          "ans": "By defaault all the collections have a default index on the _id field. If we don't specify any value for the _id the MongoDB will create _id field with an object value."
+        },
+        {
+          "id": 91,
+          "ques": "In which format MongoDB represents document structure?",
+          "ans": "MongoDB represents document structure in JSON(Javascript Object Notation ) format. "
+        },
+        {
+          "id": 92,
+          "ques": "What is the limitation of a document in MongoDB?",
+          "ans": "In  mongoDB the limitation of a document is 16 MB only."
+        },
+        {
+          "id": 93,
+          "ques": "What is the difference between MongoDB and Redis database?",
+          "ans": "i> Redis is faster than MongoDB because redis has in-memory database. \n ii> Because of mongoDB's flexible database design, it scales better than redis. \n iii> Redis uses key-value storage whereas MongoDB is stored in documents. \n iv> Redis is beneficial if you have clearly-defined data design and need fast access and MongoDB is beneficial if you have structured/unstructured data without a clear definition of the data structure."
+        },
+        {
+          "id": 94,
+          "ques": "How can you add references between multiple collections?",
+          "ans": "There are two methods to add references between multiple collections:\n i> Manual references save the _id field of one document in another document as a reference. Your application runs a second query to return the related data. \n ii> DBRefs are references from one document to another using the value of the first document's _id field, collection name, and, optionally, its database name, as well as any other fields."
+        },
+        {
+          "id": 95,
+          "ques": "What are lookup in aggregation for MongoDB?",
+          "ans": "Lookup is an aggregation stage which is used to join a document from one collection to a document of another collection of the same database based on some queries."
+        },
+        {
+          "id": 96,
+          "ques": "What are graph lookups?",
+          "ans": "graph lookuops performs a recursive search on a collection, with options for restricting the search by recursion depth and query filter."
+        },
+        {
+          "id": 97,
+          "ques": "How can you do one to many relation in MongoDB? ",
+          "ans": "The one to many relationship describes a relationship where one side can have more than one relationship. for ex a post on social media , their can be multiple comments bt all related to one post."
+        },
+        {
+          "id": 98,
+          "ques": "How can you do many to many relation in MongoDB?",
+          "ans": "The many to many relationship describes a relationship where both side can have more than one relationship. for ex: a college where multiple teachers are there to teach multiple students."
+        },
+        {
+          "id": 99,
+          "ques": "How can you do one to zillion relation in MongoDB?",
+          "ans": "It is a special case of the one-to-many relationship"
+        },
+        {
+          "id": 100,
+          "ques": "What is relationship?",
+          "ans": "A situation that exists between two relational database tables when one table has a foreign key that references the primary key of the other table."
+        },
+        {
+          "id": 101,
+          "ques": "Explain in brief what is node js?",
+          "ans": "Node js is a server-side platform built on Google Chrome javascript engine (v8 engine). It's a platform to easily building fast and scalable network applications. Node.js uses a non-blocking, event driven I/O model that makes it lightweight and efficient, perfect for real-time applications."
+        },
+        {
+          "id": 102,
+          "ques": "How is node js non blocking?",
+          "ans": "Node.js is non-blocking because it executes the program asynchronously, which means it will may not execute the program line-by-line, the program will call the function and without waiting for it moves to the next line, without any wait and will execute at last."
+        },
+        {
+          "id": 103,
+          "ques": "What is throughput?",
+          "ans": "Throughput is the rate with which data is processed and transferred from one location to another. It is measured by measuring the performance of hard drives, RAM and internet connection."
+        },
+        {
+          "id": 104,
+          "ques": "How is Node js having high IO throughput?",
+          "ans": "A cache is a high-speed storage layer used as a temporary store for frequently accessed data. You don't have to retrieve data from primary source of data. So caching is the most effictive way for improving the performance of a web application, it's primary aim is to increase the speed of data retrieval, by spending less time computing for such data and doing I/O. "
+        },
+        {
+          "id": 105,
+          "ques": "What are CPU intensive tasks?",
+          "ans": "CPU intensive tasks will block all request from completing, untill the task is completed. They are complex user actions that eat up more RAM."
+        },
+        {
+          "id": 106,
+          "ques": "How can you end up blocking your main thread in node.js?",
+          "ans": "To block main thread in node.js we can use setTimeOut(function, time);"
+        },
+        {
+          "id": 107,
+          "ques": "What is the event loop?",
+          "ans": "As we know javascript is a single-threaded, it performs only single process at a time, so it is the event loop that allows node.js to perform non-blocking I/O operations. So basically, we can say that event loop is responsible for execution of the code, processing and executing the code."
+        },
+        {
+          "id": 108,
+          "ques": "What are different phases in event loop?",
+          "ans": "Event loop has six phases:  \n i> poll, \n ii> check, \n iii> close callbacks, \n iv> timers, \n v> pending callbacks, \n vi> idle, prepare"
+        },
+        {
+          "id": 109,
+          "ques": "What is process.tick?",
+          "ans": "When we pass this then it will helps executing next callback function. While process.nextTick() is used to invoke the function at the end of the current operation."
+        },
+        {
+          "id": 110,
+          "ques": "What is the difference between setTimeout and setInterval?",
+          "ans": "setTimeout will trigger the expression once while setInterval will keep trigerring the expression regularly after a given interval of time."
+        },
+        {
+          "id": 111,
+          "ques": "How can you make a network request with http module from the backend?",
+          "ans": "const http = require(\"http\"); \n const server = http.createServer((req, res)=> {res.status(200).write(\"http server\"); res.end()}); \n server.listen(8000, ()=>{console.log(\"Listening to Port NO: 8000\")});"
+        },
+        {
+          "id": 112,
+          "ques": "How does your Node.js application handle scale? Elaborate.",
+          "ans": "i> Horizontally scaling your node.js App: which means duplicate your application instance, enabling it to a large number of incoming connections. \n ii> have multiple processes running on same machine. \n iii> scaling across multiple machines with netwrok load balancing: instead of several cores, you'll have several machines, and each one will run one or more processes. "
+        },
+        {
+          "id": 113,
+          "ques": "What are CORS? How do you configure them? Why do you need them?",
+          "ans": "Cross Origin Resource Sharing allows us to make request from one website to another website in the browser which is mainly prohibited by another browser policy SOR. CORS defines a way in which a browser and server can interact to determine whether it is safe to allow the cross-origin request. \n For the browser there is a extension with which the cors can trigger."
+        },
+        {
+          "id": 114,
+          "ques": "How can you create your own events?",
+          "ans": "const event = new Event(\"build\");"
+        },
+        {
+          "id": 115,
+          "ques": "What are clusters?",
+          "ans": "A cluster is a group of servers or can say computers which act like a single system and achives common goal by running parallely."
+        },
+        {
+          "id": 116,
+          "ques": "What is the difference between readFile and readFileSync?",
+          "ans": "i> readFile is non-blocking async, and readFileSync is blocking sync. \n ii> readFile method uses a callback function, so the program wont wait for the file to be read completely whereas readFileSync uses a variable to store the file content and then delivers it, so the program will wait till the file gets completed. \n iii> readFile has asynchronous behaviour and readFileSync has synchronous."
+        },
+        {
+          "id": 117,
+          "ques": "What is rate limiting?",
+          "ans": "Rate limiting is a strategy for limiting network traffic. It is used to control the rate of requests sent or received by a network interface controller."
+        },
+        {
+          "id": 118,
+          "ques": "How does middlewares work in express?",
+          "ans": "Middlewares are the fucntions that have access to the \"req\" object, the \"res\" object, and the next function in the application’s request-response cycle. The next function is a function in the Express router which, when invoked, executes the middleware succeeding the current middleware."
+        },
+        {
+          "id": 119,
+          "ques": "What is the difference between Encryption and Hashing?",
+          "ans": "Hashing:  \n i> A one-way function method of hiding sensitive data. Hashing turns a plaintext into a unique hash digest that cannot be reverted to plain text, without considerable effort.\n ii> it's irreversible.\n iii> it's length is fixed, \n \n Encryption: \n i> A two-way function that takes in plaintext data, and turns it into undecipherable ciphertext.\n ii> it's reversible.\n iii> variable length."
+        },
+        {
+          "id": 120,
+          "ques": "What is the difference between https and http?",
+          "ans": "i> http is unsecured and https is secured. \n ii> http port is 80 whereas https port is 443."
+        },
+        {
+          "id": 121,
+          "ques": "What is TLS?",
+          "ans": "Transport layer security (TLS) is an encryption protocol that protects internet communication. It encrypts data sent over the Internet to ensure that eavesdroppers and hackers are unable to see what you transmit which is particularly useful for private and sensitive information."
+        },
+        {
+          "id": 122,
+          "ques": "What is AES?",
+          "ans": "Advanced Encryption Standard (AES) is symmetric block cipher used to protect data against unauthorised access by encrypting it. "
+        },
+        {
+          "id": 123,
+          "ques": "What is JWT Token? Why do we need to use JWT? What are some pros and cons?",
+          "ans": "JWT, or JSON Web Token, is an open standard used to share security information between two parties — a client and a server. JWTs are a good way of securely transmitting information between parties because they are authorised. \n Pros: i> authentication is more scalable and efficient.\n ii> flexible and performance\n iii> tokens offer robust security\n Cons: i> Compromised secret key\n ii> shorter lifespan"
+        },
+        {
+          "id": 124,
+          "ques": "What is salting? Where do we store salt?",
+          "ans": "Salting is simply the addition of unique, random string of characters in the password before it hashed. It's value will be stored in password database of the site."
+        },
+        {
+          "id": 125,
+          "ques": "What is the difference between Authorisation and Authentication?",
+          "ans": "Authentication is the process of verifying who is someone and authorization is what user has access to file, data, etc."
+        },
+        {
+          "id": 126,
+          "ques": "What is difference between JS on the browser and node?",
+          "ans": "Node js has full access to the system whereas for the browser gets access to the given files only. "
+        },
+        {
+          "id": 127,
+          "ques": "What is V8?",
+          "ans": "V8 provides the runtime environment in which js executes. V8 is the name of the JavaScript engine that powers Google Chrome."
+        },
+        {
+          "id": 128,
+          "ques": "What are some new things happening in the web?",
+          "ans": "The first priority in the web is given to the security nowadays. If users data is secure then we can gain users. After that their are many things on the web which we can see are trending like Artificial Intelligence, Mobile app development, the resposiveness of the website, voice search optimisation and much more. From past few years we are focusing much more on web than previous years because that makes persons work reliable and secure. "
+        },
+        {
+          "id": 129,
+          "ques": "Explain a project that you have built?",
+          "ans": "I don't have any personal project but in Unit 5 of masai school I did a collaborative project in construct week. It was cloning website of Unacademy.com . The site was all about providing online education/courses for the job seekers by providing courses of multiple exams across India. We were team of 4 members and we successfully built it in a week. We used ReactJs, Material UI, and json-server for making it. The challenging part for us was sign in and sign up. We recieved good feedback from our mentors after completion."
+        },
+        {
+          "id": 130,
+          "ques": "Whats something exciting that you have built?",
+          "ans": "Recently I did project on Healthkart clone. It was a collaborative projective but we enjoyed buiding it. We used MongoDB, Express, NodeJS, React, React-redux, Firebase, Material UI in making of the project. It took a week for completion. We recieved winner prize after completing the project. "
+        },
+        {
+          "id": 131,
+          "ques": "What are you most excited about?",
+          "ans": "I am excited about learning new things and explore the world of development. I want to know how it feels to make a real website for users. I am excited about put my efforts of what i learnt so far. The work culture, the contributions to the society, the independent life, I want to feel that."
+        },
+        {
+          "id": 132,
+          "ques": "Why do coding standards matter? What are some patterns you follow?",
+          "ans": "Coding standards matters because it is always readable for developers, it's error free, it's clean. Conding standards is used to create readable and consistent code for developers. It's writing a code in defined and in a procedure which every developer follows. I too like to follow some patterns, like clean code, error free codes, commenting the code."
+        },
+        {
+          "id": 133,
+          "ques": "How do you go about managing responsive websites?",
+          "ans": "As world is diverting mostly towards the mobile phone every other organization is trying their best to provide mobile applications and for that managing responsiveness of the site is very important nowadays. Even when I worked on my projects I keep it in my mind to make them responsive and all cloning sites i worked are responsive."
+        },
+        {
+          "id": 134,
+          "ques": "What do you care about the most when you write software?",
+          "ans": "The most cared thing that is to keep in mind is writing a clean code which is readable and bug free. I always keep a blueprint of what I am doing and keep debugging at many places to not let mistakes repeat."
+        },
+        {
+          "id": 135,
+          "ques": "Basic structure of flux architecture.",
+          "ans": "Action(Takes an action {type: , payload: })->Dispatcher(dispatches action to the store)->Store(stores/updates the data or we can say it as a local database)->View(show the updated data)"
+        },
+        {
+          "id": 136,
+          "ques": "Redux properties to follow.",
+          "ans": "i>Single source of truth(becaus there is only one store in redux and it holds all the application state). \n i> state is read only(can't modify only read). \n iii> changes in redux are made with pure functions."
+        },
+        {
+          "id": 137,
+          "ques": "What are pure functions?",
+          "ans": "Pure functions are those which returns same value everytime. for ex: function sum(){ const a= 20; b=30; return (a+b);};"
+        },
+        {
+          "id": 138,
+          "ques": "What are reducers?",
+          "ans": "Reducres specify how the application's state changes in response to actions sent to the store."
+        },
+        {
+          "id": 139,
+          "ques": "What is useContext in React?",
+          "ans": "accepts a context object and returns context value for that context. when <MyContext.provider> updates, this hook will trigger a rerender with the latest context value. "
+        },
+        {
+          "id": 140,
+          "ques": "What is useRef in React?",
+          "ans": "return a mutable object whose .current property is inititalized to the passed argument, we basically use it to manipulate DOM."
+        },
+        {
+          "id": 141,
+          "ques": "What is useReducer in React?",
+          "ans": "accepts a reducer of type (state, action) and returns the current state paired with a dispatch method."
+        },
+        {
+          "id": 142,
+          "ques": "What is useCallback in React?",
+          "ans": "returns a memoized callback, it will return only when it's dependecy updates."
+        },
+        {
+          "id": 143,
+          "ques": "What is useMemo in React?",
+          "ans": "returns a memoized value, it will return only when it's dependecy updates."
+        },
+        {
+          "id": 144,
+          "ques": "What is useState in React?",
+          "ans": "returns a state value, and a function to update it. State is something we want to store and update it later."
+        },
+        {
+          "id": 145,
+          "ques": "What is useEffect in React?",
+          "ans": "the function passed to the useEffect will run after the render is committed to the screen. \n Effects create resources that need to be cleaned up before the component leaves the screen. For this function passed to useEffect may return a clean-up function."
+        }
+      ]
+}
