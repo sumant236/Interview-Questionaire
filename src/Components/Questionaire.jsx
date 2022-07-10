@@ -23,7 +23,7 @@ export const Questionaire = () => {
   
   useEffect(()=>{
     getData();
-  },[])
+  })
 
   return (
     <div>
